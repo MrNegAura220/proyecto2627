@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="MrNegAura" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Practica01 - Proyecto2627</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var properdocs_page_name = "Practica01";
+        var properdocs_page_input_path = "proyectos\\Proyecto01.md";
+        var properdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Proyecto2627
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../">Inicio</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Proyectos</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../proyecto2627/">Proyecto2627</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Practica01</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduccion">Introducción</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1-git-instalado-y-configurado">1. Git instalado y configurado</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-github-cli-instalado-y-configurado">2. GitHub CLI instalado y configurado</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-herd-instalado-con-php-84">3. Herd instalado con PHP 8.4</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-repositorio-misitio-clonado-en-local">4. Repositorio "misitio" clonado en local</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-herd-enlazado-a-misitio-y-sirviendolo-en-https">5. Herd enlazado a "misitio" y sirviéndolo en HTTPS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resumen-de-elementos-y-plugins-de-readthedocs-usados">Resumen de elementos y plugins de ReadTheDocs usados</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Proyecto2627</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Proyectos</li>
+      <li class="breadcrumb-item active">Practica01</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="practica01-instalacion-y-configuracion-del-sitio-web-en-local">Practica01: instalación y configuración del sitio web en local<a class="headerlink" href="#practica01-instalacion-y-configuracion-del-sitio-web-en-local" title="Permanent link">&para;</a></h1>
+<p><strong>Autor:</strong> MrNegAura · 2º DAW · Diseño de Interfaces Web</p>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>En este proyecto he montado en mi ordenador el entorno para trabajar con mi sitio web <strong>misitio</strong> en local y he documentado todo el proceso con <strong>ProperDocs</strong>. He usado Git y GitHub CLI para el control de versiones, y Laravel Herd para servir la web con PHP 8.4 y HTTPS.</p>
+<h2 id="1-git-instalado-y-configurado">1. Git instalado y configurado<a class="headerlink" href="#1-git-instalado-y-configurado" title="Permanent link">&para;</a></h2>
+<p>Lo primero fue instalar Git en Windows. Para comprobar que estaba bien instalado usé <code>git --version</code>, y luego configuré mi usuario y mi correo del instituto para que los <em>commits</em> salgan a mi nombre:</p>
+<pre><code class="language-bash">git --version
+git config --global user.name &quot;MrNegAura220&quot;
+git config --global user.email &quot;*******@alu.murciaeduca.es&quot;
+</code></pre>
+<p>Con <code>git config --global user.name</code> y <code>git config --global user.email</code> comprobé que se habían guardado.</p>
+<p><img alt="Git instalado y configurado" src="../../img/Captura01-Proyecto01.png" /></p>
+<h2 id="2-github-cli-instalado-y-configurado">2. GitHub CLI instalado y configurado<a class="headerlink" href="#2-github-cli-instalado-y-configurado" title="Permanent link">&para;</a></h2>
+<p>Después instalé <strong>GitHub CLI</strong> (<code>gh</code>) para poder trabajar con GitHub desde la terminal. Inicié sesión con <code>gh auth login</code> y verifiqué que todo iba bien con <code>gh auth status</code>: aparece mi cuenta conectada, el protocolo <code>https</code> y los permisos del token (<code>gist</code>, <code>read:org</code>, <code>repo</code> y <code>workflow</code>).</p>
+<pre><code class="language-bash">gh --version
+gh auth login
+gh auth status
+</code></pre>
+<p><img alt="GitHub CLI instalado y configurado" src="../../img/Captura02-Proyecto01.png" /></p>
+<h2 id="3-herd-instalado-con-php-84">3. Herd instalado con PHP 8.4<a class="headerlink" href="#3-herd-instalado-con-php-84" title="Permanent link">&para;</a></h2>
+<p>Instalé <strong>Laravel Herd</strong>, que ya trae NGINX y PHP para desarrollar en local sin configurar nada a mano. En la instalación dejé <strong>PHP 8.4</strong> como versión global. Lo comprobé desde la terminal con <code>php -v</code> (me sale la 8.4.25) y en el panel de Herd, donde los servicios NGINX, Dumps y PHP-8.4 aparecen activos.</p>
+<pre><code class="language-bash">php -v
+</code></pre>
+<p><img alt="Comprobación de PHP 8.4 en la terminal" src="../../img/Captura03-Proyecto01.png" /></p>
+<p><img alt="Servicios activos de Herd y versión global de PHP" src="../../img/Captura04-Proyecto01.png" /></p>
+<h2 id="4-repositorio-misitio-clonado-en-local">4. Repositorio "misitio" clonado en local<a class="headerlink" href="#4-repositorio-misitio-clonado-en-local" title="Permanent link">&para;</a></h2>
+<p>Cloné el repositorio de GitHub dentro de la carpeta de Herd (<code>C:\Users\alexr\Herd</code>) con el nombre <code>misitio</code>, para que Herd lo detecte automáticamente:</p>
+<pre><code class="language-bash">cd C:\Users\alexr\Herd
+git clone https://github.com/MrNegAura220/Mysite.git misitio
+</code></pre>
+<p>Con <code>git status</code> veo que estoy en la rama <code>main</code>, actualizada con <code>origin/main</code> y sin cambios pendientes. Con <code>git remote -v</code> compruebo que el remoto <code>origin</code> apunta a mi repositorio de GitHub.</p>
+<pre><code class="language-bash">git status
+git remote -v
+</code></pre>
+<p><img alt="Repositorio clonado en local" src="../../img/Captura05-Proyecto01.png" /></p>
+<h2 id="5-herd-enlazado-a-misitio-y-sirviendolo-en-https">5. Herd enlazado a "misitio" y sirviéndolo en HTTPS<a class="headerlink" href="#5-herd-enlazado-a-misitio-y-sirviendolo-en-https" title="Permanent link">&para;</a></h2>
+<p>En la pestaña <strong>Sites</strong> de Herd aparece <code>misitio.test</code>, que apunta a la carpeta <code>C:\Users\alexr\Herd\misitio</code> y usa PHP 8.4. Activé el candado (<strong>Secure</strong>) para que el sitio funcione con certificado y se abra por HTTPS en <code>https://misitio.test</code>.</p>
+<p><img alt="Herd sirviendo misitio.test en HTTPS" src="../../img/Captura06-Proyecto01.png" /></p>
+<h2 id="resumen-de-elementos-y-plugins-de-readthedocs-usados">Resumen de elementos y plugins de ReadTheDocs usados<a class="headerlink" href="#resumen-de-elementos-y-plugins-de-readthedocs-usados" title="Permanent link">&para;</a></h2>
+<p>Para esta documentación he usado el tema <strong>readthedocs</strong> que viene incluido en ProperDocs. Estos son los elementos que he configurado en <code>properdocs.yml</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Para qué lo uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tema <code>readthedocs</code></td>
+<td>Da el aspecto de la web: menú lateral con las secciones y diseño limpio para documentación.</td>
+</tr>
+<tr>
+<td><code>nav</code></td>
+<td>Define el menú lateral y el orden de las páginas (Inicio, Proyectos, Archivos explicativos, Guía de uso).</td>
+</tr>
+<tr>
+<td>Plugin <code>search</code></td>
+<td>Añade el buscador de la web para encontrar contenido rápido.</td>
+</tr>
+<tr>
+<td>Extensión <code>admonition</code></td>
+<td>Permite crear recuadros de aviso o nota (<code>!!! info</code>, <code>!!! note</code>).</td>
+</tr>
+<tr>
+<td>Extensión <code>tables</code></td>
+<td>Permite hacer tablas en Markdown, como esta.</td>
+</tr>
+<tr>
+<td>Extensión <code>toc</code></td>
+<td>Genera el índice de cada página y los enlaces en los títulos (<code>permalink</code>).</td>
+</tr>
+<tr>
+<td>Extensión <code>fenced_code</code></td>
+<td>Permite poner bloques de código con tres comillas invertidas.</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../proyecto2627/" class="btn btn-neutral float-left" title="Proyecto2627"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://properdocs.org/">ProperDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../proyecto2627/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
