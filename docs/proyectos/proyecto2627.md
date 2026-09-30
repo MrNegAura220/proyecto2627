@@ -1,6 +1,6 @@
 # Proyecto2627
 
-**Autor:** Alejandro Rodriguez
+**Autor:** MrNegAura
 
 ## Descripción
 

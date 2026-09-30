@@ -1,6 +1,6 @@
-# Proyecto01: instalación y configuración del sitio web en local
+# Practica01: instalación y configuración del sitio web en local
 
-**Autor:** Alejandro Rodriguez · 2º DAW · Diseño de Interfaces Web
+**Autor:** MrNegAura · 2º DAW · Diseño de Interfaces Web
 
 ## Introducción
 
@@ -13,7 +13,7 @@ Lo primero fue instalar Git en Windows. Para comprobar que estaba bien instalado
 ```bash
 git --version
 git config --global user.name "MrNegAura220"
-git config --global user.email "1915598@alu.murciaeduca.es"
+git config --global user.email "*******@alu.murciaeduca.es"
 ```
 
 Con `git config --global user.name` y `git config --global user.email` comprobé que se habían guardado.

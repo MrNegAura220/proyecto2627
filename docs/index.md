@@ -9,4 +9,4 @@ Documentación de **Proyecto2627**, proyecto de 2º DAW (Desarrollo de Aplicacio
 - [Guía de uso](guia.md): cómo instalar y usar la aplicación.
 
 !!! info "Autoría"
-    Realizado por **Alejandro Rodriguez** · Curso 2026/2027
+    Realizado por **MrNegAura** · Curso 2026/2027
