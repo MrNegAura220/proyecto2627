@@ -82,4 +82,4 @@ Para esta documentación he usado el tema **readthedocs** que viene incluido en 
 | Extensión `toc` | Genera el índice de cada página y los enlaces en los títulos (`permalink`). |
 | Extensión `fenced_code` | Permite poner bloques de código con tres comillas invertidas. |
 
-Además, todas las páginas están escritas en **Markdown**, y las imágenes están en una única carpeta `img`.
+
