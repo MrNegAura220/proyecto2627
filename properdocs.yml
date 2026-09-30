@@ -10,7 +10,6 @@ theme:
 nav:
   - Inicio: proyectos/index.md
   - Proyectos:
-      - Resumen: proyectos/index.md
       - Proyecto2627: proyectos/proyecto2627.md
       - Practica01: proyectos/Proyecto01.md
 
