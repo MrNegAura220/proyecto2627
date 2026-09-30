@@ -1,17 +1,12 @@
-# Welcome to ProperDocs
+# Proyecto2627
 
-For full documentation visit [properdocs.org](https://properdocs.org).
+Documentación de **Proyecto2627**, proyecto de 2º DAW (Desarrollo de Aplicaciones Web).
 
-## Commands
+## Contenido
 
-* `properdocs new [dir-name]` - Create a new project.
-* `properdocs serve` - Start the live-reloading docs server.
-* `properdocs build` - Build the documentation site.
-* `properdocs -h` - Print help message and exit.
+- [Proyectos](proyectos/index.md): apartado con los proyectos y su descripción.
+- [Archivos explicativos](archivos/index.md): documentos y material descargable.
+- [Guía de uso](guia.md): cómo instalar y usar la aplicación.
 
-## Project layout
-
-    properdocs.yml # The configuration file.
-    docs/
-        index.md   # The documentation homepage.
-        ...        # Other markdown pages, images and other files.
+!!! info "Autoría"
+    Realizado por **Alejandro Rodriguez** · Curso 2026/2027

@@ -1,1 +1,27 @@
-site_name: My Docs
+site_name: Proyecto2627
+site_description: Documentación de Proyecto2627 · 2º DAW
+site_author: Alejandro Rodriguez
+# repo_url: https://github.com/usuario/repositorio
+
+theme:
+  name: readthedocs
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Proyectos:
+      - Resumen: proyectos/index.md
+      - Proyecto2627: proyectos/proyecto2627.md
+      - Proyecto01: proyectos/Proyecto01.md
+  - Archivos explicativos: archivos/index.md
+  - Guía de uso: guia.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
