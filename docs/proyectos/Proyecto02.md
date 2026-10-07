@@ -74,17 +74,17 @@ Lo más importante:
 
 ### Captura: formulario vacío
 
-![Formulario vacío](img/01_formulario.png)
+![Formulario vacío](/docs/img/01_formulario.png)
 
 ### Captura: formulario relleno
 
-![Formulario relleno](img/02_formulario_relleno.png)
+![Formulario relleno](/docs/img/02_formulario_relleno.png)
 
 ### Captura: validación del navegador
 
 Si escribo un sueldo que no es mayor de 1000, el navegador avisa y no deja enviar el formulario gracias al atributo `min`.
 
-![Validación del navegador](img/03_validacion_navegador.png)
+![Validación del navegador](/docs/img/03_validacion_navegador.png)
 
 ---
 
@@ -173,21 +173,21 @@ He usado `htmlspecialchars()` en el mensaje de error como medida de seguridad b�
 
 ### Puesto base (10 %) con sueldo 1200 €
 
-![Resultado puesto base](img/04_resultado_base.png)
+![Resultado puesto base](/docs/img/04_resultado_base.png)
 
 ### Puesto directivo (15 %) con sueldo 2000 €
 
-![Resultado puesto directivo](img/05_resultado_directivo.png)
+![Resultado puesto directivo](/docs/img/05_resultado_directivo.png)
 
 ### Puesto alto cargo (20 %) con sueldo 3000 €
 
-![Resultado puesto alto cargo](img/06_resultado_alto_cargo.png)
+![Resultado puesto alto cargo](/docs/img/06_resultado_alto_cargo.png)
 
 ### Error de validación en el servidor
 
 Si los datos no son válidos (por ejemplo un sueldo de 900 € enviado saltándose el formulario), PHP enseña un mensaje de error en lugar del cálculo.
 
-![Error del servidor](img/07_error_servidor.png)
+![Error del servidor](/docs/img/07_error_servidor.png)
 
 ### Resumen de resultados
 
@@ -199,7 +199,7 @@ Si los datos no son válidos (por ejemplo un sueldo de 900 € enviado saltándo
 
 ---
 
-## 6. Estilos (`estilos.css`)
+## 6. Estilos (`ut02p02.css`)
 
 Para que no se vea feo he hecho una hoja de estilos sencilla que comparten las dos páginas:
 
